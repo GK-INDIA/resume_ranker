@@ -21,11 +21,12 @@ Automated resume ranking system with AI-powered criteria extraction and scoring 
 ```
 resume-ranker/
 ├── 📄 main.py               - FastAPI application and route handlers
-├── 📄 utils.py              - Helper functions for text extraction/processing
 ├── 📄 requirements.txt      - Python dependencies
+├── 📄 .gitignore            - file to ignore all environment and temporary folders
 ├── 📄 .env                  - Environment variables (template)
 ├── 📄 README.md             - Project documentation (you are here!)
-└── 📁 tests/                - Automated test cases (optional)
+└── 📁 utils/                - Automated test cases (optional)
+     └── 📄 openai_function.py
 
 ```
 
