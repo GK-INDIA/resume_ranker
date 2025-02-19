@@ -1,4 +1,4 @@
-```markdown
+
 # 📁 Resume Ranker API ⚡
 
 [![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
@@ -26,6 +26,7 @@ resume-ranker/
 ├── 📄 .env                  - Environment variables (template)
 ├── 📄 README.md             - Project documentation (you are here!)
 └── 📁 tests/                - Automated test cases (optional)
+
 ```
 
 ## 🔌 API Endpoints
