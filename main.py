@@ -15,7 +15,11 @@ from pydantic import BaseModel
 
 from utils.openai_function import get_completion
 
-app = FastAPI()
+app = FastAPI(
+    title="Resume Ranking API",
+    description="API for extracting ranking criteria from job descriptions and scoring resumes.",
+    version="1.0.0",
+)
 
 # CORS Middleware
 app.add_middleware(
