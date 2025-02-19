@@ -55,7 +55,6 @@ async def extract_text(file: UploadFile):
 
 async def get_criteria_from_text(text: str):
     try:
-        print(text)
         prompt = f"""
         You are the best Job Description analyser. Analyse the Job description given as input text in triple backticks:
         Input text: ```{text}```\n
@@ -69,7 +68,6 @@ async def get_criteria_from_text(text: str):
         """
         result = get_completion(prompt)
         data = ast.literal_eval(result)
-        print(data)
         return data.get("Criteria", [])
     except Exception as e:
         raise HTTPException(
