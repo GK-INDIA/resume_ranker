@@ -63,8 +63,8 @@ John Doe       | 5                 | 4                 | ... | 17
 
 1. **Clone Repository**
    ```bash
-   git clone https://github.com/yourusername/resume-ranker.git
-   cd resume-ranker
+   git clone git@github.com:GK-INDIA/resume_ranker.git
+   cd resume_ranker
    ```
 
 2. **Install Dependencies**
@@ -74,7 +74,7 @@ John Doe       | 5                 | 4                 | ... | 17
 
 3. **Configure Environment**
    ```bash
-   cp .env.example .env
+   OPENAI_API_KEY = <Enter your openai API key here>
    # Add your OpenAI API key to .env
    ```
 
@@ -118,25 +118,10 @@ curl -X POST -F "criteria='[\"Python Experience\",\"AWS Certification\"]'" \
 
 ## 📄 License
 
-MIT License - See [LICENSE](LICENSE) for details
+Apache 2.0 License - See [LICENSE](LICENSE) for details
 
 ## 📧 Contact
 
-[![Email](https://img.shields.io/badge/Contact-Email%20Me-blue?style=for-the-badge&logo=minutemailer)](mailto:your.email@example.com)  
-[![LinkedIn](https://img.shields.io/badge/Connect-LinkedIn-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/yourprofile/)
+[![Email](https://img.shields.io/badge/Contact-Email%20Me-blue?style=for-the-badge&logo=minutemailer)](mailto:gyanprakashkonhar18@kgpian.iitkgp.ac.in)  
+[![LinkedIn](https://img.shields.io/badge/Connect-LinkedIn-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/gyan-prakash-konhar-641678191/)
 ```
-
-**Tips for Use**:
-1. Replace placeholder values (yourusername, email, LinkedIn URL)
-2. Add actual LICENSE file
-3. Include sample test files in repository
-4. Add screenshots of Swagger UI if available
-5. Customize badges and emojis as needed
-
-This README provides:
-- Visual hierarchy with emojis and badges
-- Clear setup/usage instructions
-- API documentation with example payloads
-- Contribution guidelines
-- Multiple contact options
-- Responsive formatting for GitHub
